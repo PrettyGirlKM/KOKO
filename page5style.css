@@ -1,0 +1,97 @@
+h1{
+text-align: center;
+ color: yellow ;
+font-size:50px; 
+}
+body{
+	font-family: monospace;
+	background-color:#ffc9d3;
+	border-image:url(Images/Sanrio.jpg/border-double);
+	margin-top: 0px;
+
+}
+img{
+	border:5px solid #f3e3de;
+}
+header,footer {
+	position: static;
+    width:100%;
+}
+footer{
+	height: 10vh;
+	bottom:0;
+	background-color:#fa8ca3;
+	position:static;
+	width:100%;
+	border:10px solid white;
+}
+li {
+  display: inline;
+}
+ol{
+	border:10px solid white;
+	font-size:20px;
+	background-color:#fa8ca3;
+}
+a{
+	margin-right:15px;
+}
+a:link {
+  color: yellow ;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+button{
+	  font-size: 40px;
+	  border-radius: 12px;
+	  font-family:papyrus;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+#texteprincipale {
+	text-align:center;
+	font-family:papyrus;
+	font-size:30px;
+	margin:20px;
+	border:10px solid white;
+	background-color:#fa8ca3;
+	line-height:50px;
+
+#menu{
+	border-style:solid;
+	border-width:5px;
+	justify-content:flex-start;
+	width:200px;
+	margin-right:20px;
+}
+#texteprincipale{
+	border-style:solid;
+	border-color:#ff2052;
+	border-width:5px;
+	justify-content: flex-end;
+	text-align: center;
+	width:1300px;
+}
+#principal{
+	display : flex;
+	align-items: flex-start;
+}
+#imgh{
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+#images5{
+	margin:20px;
+}
